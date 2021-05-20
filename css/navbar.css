@@ -13,7 +13,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: #14c0f1;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -25,5 +25,5 @@ li a:hover {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #a41d34;
 }

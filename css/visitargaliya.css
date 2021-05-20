@@ -42,7 +42,7 @@
 
 /* Caption text */
 .text {
-  color: #610707;
+  color: #a41d34;
   font: italic small-caps bold 20px/30px Georgia, serif;
   padding: 8px 12px;
   position: absolute;
@@ -53,7 +53,7 @@
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #610707;
+  color: #14c0f1;
   font-size: 20px;
   padding: 8px 12px;
   position: absolute;
@@ -90,12 +90,12 @@ h1{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  color: red;
+  color: #a41d34;
 }
 h2{
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  color: red;
+  color: #14c0f1;
 }
