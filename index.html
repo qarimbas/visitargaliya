@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/visitargaliya.css" />
+  <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+  <title>Visit Argaliya</title>
+  <link rel="icon" type="image/png"
+    href="https://github.com/qarimbas/visitargaliya/raw/master/argaliya_pics/trabzonspor.png" />
+</head>
+
+<body style="background-color:powderblue;">
+  <h1>Visit Argaliya</h1>
+  <h2>Welcome To Our Homeland</h2>
+  <br>
+  <br>
+  <ul>
+    <li><a class="active" href=index.html>Home </a> </li>
+    <li><a href=pages/about_page.html>About </a> </li> <li><a href=pages/news_page.html>News </a> </li> <li><a
+            href=pages/contact_page.html>Contact </a> </li> <li><a href=pages/credits_page.html>Credits </a> </li> </ul>
+              <br>
+              <br>
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 7</div>
+                  <img class="imgcarousel"
+                    src="https://github.com/qarimbas/visitargaliya/raw/master/argaliya_pics/beautiful_sunset.JPG">
+                  <div class="text">Beautiful Village View</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 7</div>
+                  <img class="imgcarousel"
+                    src="https://github.com/qarimbas/visitargaliya/raw/master/argaliya_pics/graveyard.JPG">
+                  <div class="text">Here is graveyard. You can see a lot of graveyards in this village, Kerem and
+                    Harun used this graveyard as meeting place.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 7</div>
+                  <img class="imgcarousel"
+                    src="https://github.com/qarimbas/visitargaliya/raw/master/argaliya_pics/harvest.JPG">
+                  <div class="text">Harvest Area. Hazenuts are stocked here after harvest.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">4 / 7</div>
+                  <img class="imgcarousel"
+                    src="https://github.com/qarimbas/visitargaliya/raw/master/argaliya_pics/kurds_water.JPG">
+                  <div class="text">Kurd's Water:
+                    Local people use this water as drinking water. This water may taste strange initially but u get
+                    used to it.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">5 / 7</div>
+                  <img class="imgcarousel"
+                    src="https://github.com/qarimbas/visitargaliya/raw/master/argaliya_pics/mosque_road.JPG">
+                  <div class="text">Mosque Road:
+                    Mosque road has an unbelieveable slope. Rumors tell that there is a crazy guy going this ramp
+                    with a bike without even stopping!</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">6 / 7</div>
+                  <img class="imgcarousel"
+                    src="https://github.com/qarimbas/visitargaliya/raw/master/argaliya_pics/safehouse.JPG">
+                  <div class="text">Safehouse. Rumors state that there is a wifi on this place.</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">7 / 7</div>
+                  <img class="imgcarousel"
+                    src="https://github.com/qarimbas/visitargaliya/raw/master/argaliya_pics/with_the_boys.JPG">
+                  <div class="text">With the Boys</div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+
+
+                <script>
+                  var slideIndex = 0;
+                  showSlides(slideIndex);
+
+                  function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {
+                      slideIndex = 1
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    setTimeout(showSlides, 10000);
+                  }
+                </script>
+              </div>
+
+</body>
+
+</html>
